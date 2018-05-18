@@ -1,0 +1,6 @@
+/images
+*.aux
+*.idx
+*.log
+*.tex
+*.toc

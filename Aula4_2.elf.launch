@@ -19,18 +19,16 @@
 <booleanAttribute key="com.atollic.hardwaredebug.launch.useRemoteTarget" value="true"/>
 <booleanAttribute key="com.atollic.hardwaredebug.launch.verify_flash_download" value="true"/>
 <booleanAttribute key="com.atollic.hardwaredebug.stlink.enable_logging" value="false"/>
-<stringAttribute key="com.atollic.hardwaredebug.stlink.log_file" value="C:\Users\nicolas.oliveira\Atollic\TrueSTUDIO\STM32_workspace_9.0\pwm\Debug\st-link_gdbserver_log.txt"/>
-<booleanAttribute key="com.atollic.hardwaredebug.stlink.stlink_check_serial_number" value="false"/>
-<stringAttribute key="com.atollic.hardwaredebug.stlink.stlink_txt_serial_number" value=""/>
+<stringAttribute key="com.atollic.hardwaredebug.stlink.log_file" value="C:\Users\cadre\Desktop\workspace\Aula4_2\Debug\st-link_gdbserver_log.txt"/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="${TOOLCHAIN_PATH}/arm-atollic-eabi-gdb"/>
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_REGISTER_GROUPS" value=""/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/pwm.elf"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="pwm"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/Aula4_2.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Aula4_2"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/pwm"/>
+<listEntry value="/Aula4_2"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>

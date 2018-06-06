@@ -1,6 +1,2 @@
-/images
-*.aux
-*.idx
-*.log
-*.tex
-*.toc
+Debug
+.settings

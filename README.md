@@ -33,9 +33,19 @@ Os periféricos a serem utilizados se comunicaram com o microcontrolador de acord
 
 ![Diagrama-de-blocos](diagramablocos.PNG)
 
+##Fluxo grama do Projeto
+
+O código segue o seguinte fluxograma:
+
+![fluxograma](Fluxograma.PNG)
+
+Onde ele é capaz de ler os valores da 3 acelerações enviar uma delas e o dutycicle via USB e ainda controlar um motor proporcionalmente a aceleração no eixo Z. 
+
 ### Interface com o Usuário
 
-Será feita uma interface em labview para q a resposta do sistema possa ser visualizada e em tempo real as constantes da malha de controle ajustadas.
+Foi feita uma interface em LabView que é capaz de ler a aceleração em algum eixo escolhido no firmware e ainda o dutycicle utilizado no PWM gerado. Além disso um filtro passa baixa é aplicado a leitura para evitar pulsos espúrios.  
+
+![Placa](Interface.PNG)
  
 ## Referências
 

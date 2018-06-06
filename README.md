@@ -46,6 +46,25 @@ Onde ele é capaz de ler os valores da 3 acelerações enviar uma delas e o dutycic
 Foi feita uma interface em LabView que é capaz de ler a aceleração em algum eixo escolhido no firmware e ainda o dutycicle utilizado no PWM gerado. Além disso um filtro passa baixa é aplicado a leitura para evitar pulsos espúrios.  
 
 ![interface](Interface.PNG)
+
+### Pinagem e Periféricos
+
+Foram utilizados para o projeto *GPIOs* e *USB*. 
+
+| **Pino Discovery** |     **Descrição**     |
+|:------------------:|:---------------------:|
+|        PA14        |         PWM CH3       |
+|        PA13        |         PWM CH2       |
+|         PD8        |    CONTROLE PONTE H   |
+|         PD9        |    CONTROLE PONTE H   |
+|         PA5        |         SPI SCK       |
+|         PA6        |         SPI MISO      |
+|         PA7        |         SPI MOSI      |
+|        PA15        |         SPI CS        |
+
+## Vídeos de Demonstração
+
+Anexos na pasta
  
 ## Referências
 

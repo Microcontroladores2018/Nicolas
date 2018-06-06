@@ -33,7 +33,7 @@ Os periféricos a serem utilizados se comunicaram com o microcontrolador de acord
 
 ![Diagrama-de-blocos](diagramablocos.PNG)
 
-##Fluxo grama do Projeto
+## Fluxo grama do Projeto
 
 O código segue o seguinte fluxograma:
 
@@ -45,7 +45,7 @@ Onde ele é capaz de ler os valores da 3 acelerações enviar uma delas e o dutycic
 
 Foi feita uma interface em LabView que é capaz de ler a aceleração em algum eixo escolhido no firmware e ainda o dutycicle utilizado no PWM gerado. Além disso um filtro passa baixa é aplicado a leitura para evitar pulsos espúrios.  
 
-![Placa](Interface.PNG)
+![interface](Interface.PNG)
  
 ## Referências
 
